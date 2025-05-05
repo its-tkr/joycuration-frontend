@@ -1,0 +1,29 @@
+<header class="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+            JOYCURATION
+        </a>
+        <div class="nav__menu" id="nav-menu"[class.show-menu]="isMenuShown" >
+            <ul class="nav__list">
+                <li>
+                    <a href="" class="nav__link" (click)="linkAction()">Event</a>
+                </li>
+                <li>
+                    <a href="" class="nav__link" (click)="linkAction()">Instruction</a>
+                </li>
+                <li>
+                    <a href="" class="nav__link" (click)="linkAction()">Reservation</a>
+                </li>
+            </ul>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close" (click)="hideMenu()">
+                <i class="ri-close-large-line" style="color: white;"></i>
+            </div>
+        </div>
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle" (click)="toggleMenu()">
+            <i class="ri-menu-line" style="color: white;"></i>
+        </div>
+    </nav>
+</header>
+<!-- hi i want  a responsive table reservation website for a restaurant which will have multiple events through out the year and users have to book their slots for that event. i want this website in angular frame work which should be working for all the screen sizes. This website should be sleak and minimalist it should have 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap' this font and this website is a single page site which has the following sections like header, about, event(with image ), instruction, Available slots with the date and event name and it should have a book now button and finally it should have a footer and its brand name is joy curation i want the theme should be maintained in black and white and it should be very interactive with the user and it should use animation parallax and scrolling effect this -->
